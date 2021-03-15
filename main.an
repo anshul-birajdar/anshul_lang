@@ -1,0 +1,27 @@
+import anshul.lang.time.*;
+import system.*;
+package Main;
+int main(String args)
+{
+int finess=1;
+int time=1;
+
+printf(
+"returned=%d",
+pour(finess,time)
+);
+
+return 0;
+
+}
+
+int pour(int fineness,time)
+{
+if(finess==1)for(int i=0;i<time;i++)
+{
+        printf("poured %d\n",i);
+        sleep(1);
+}
+
+return i;
+}
